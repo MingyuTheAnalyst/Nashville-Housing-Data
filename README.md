@@ -15,7 +15,7 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
 
 ### Data Cleaning
 
-[Data Cleaning-Nashville Housing -SQL](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/blob/main/NashvilleHousingSQL.sql)
+[Data Cleaning-Nashville Housing -SQL code](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/blob/main/NashvilleHousingSQL.sql)
 
 - Standardize Data Format
 - Populate Property Address data
