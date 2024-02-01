@@ -1,5 +1,12 @@
 # Nashville-Housing-Data
 
+## Table of Content
+ - [Project Overview](#project-overview)
+ - [Data Sources](#data-sources)
+ - [Tools](#tools)
+ - [Data Cleaning](#data-cleaning)
+ - [Key Achievements](#key-achievements)
+
 ### Project Overview
  
 This data cleaning project with the Nashville Hosuing data, we handle the data formatting, transforming address column and removing the data we are not using.
