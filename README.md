@@ -15,9 +15,9 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
 
 ### Data Cleaning
 
-[Data Cleaning-Nashville Housing -SQL code Click](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/blob/main/NashvilleHousingSQL.sql)
-
 - Standardize Data Format
+
+	![image](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/assets/88122148/20be1bdf-93a1-4eeb-93db-bc8629e0e393)
 
   ```sql
   Select SaleDateConverted, CONVERT(Date, SaleDate)
@@ -29,7 +29,7 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
   Update portfolioproject.dbo.NashvilleHousing
   Set SaleDateConverted = Convert(date, SaleDate)
   ```
-
+	[Data Cleaning-Nashville Housing -SQL code Click](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/blob/main/NashvilleHousingSQL.sql)
   
 - Populate Property Address data
 
@@ -69,7 +69,8 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
   Update portfolioproject.dbo.NashvilleHousing
   Set OwnerSplitState = PARSENAME(REPLACE(OwnerAddress,',','.'),1)
   ```
- 
+	 ![image](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/assets/88122148/7c8d2dcf-f1ac-494e-84fc-1034c584b9ba)
+
 - Change Y and N and No in "Sold as Vacant" field
 
   ```sql
@@ -86,6 +87,7 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
   	   END
   From portfolioproject.dbo.NashvilleHousing
   ```
+	![image](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/assets/88122148/341e638e-999b-4fe9-9cba-750ac9a0fae7)
 
 Update portfolioproject.dbo.NashvilleHousing
 Set SoldAsVacant = CASE When SoldAsVacant= 'Y' Then 'Yes'
