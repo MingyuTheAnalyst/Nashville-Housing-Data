@@ -11,7 +11,7 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
 ### Tools
 
 - Excel - Data Cleaning
-- SQL(MSSQL) - Data Exploration, Data Cleaning
+- SQL(SQL Server) - Data Exploration, Data Cleaning
 
 ### Data Cleaning
 
