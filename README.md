@@ -125,7 +125,7 @@ Set SoldAsVacant = CASE When SoldAsVacant= 'Y' Then 'Yes'
   Alter Table portfolioproject.dbo.NashvilleHousing
   Drop column SaleDate
   ```
-### Key Achievement
+### Key Achievements
 
  - Improved Data Consistency: Standardized date formats and unified values in the 'Sold as Vacant' field to 'Yes' or 'No' using SQL, significantly enhancing data consistency and readability.
  - Managed Missing Values: Actively identified and supplemented missing property addresses, ensuring the completeness of the dataset.
