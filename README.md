@@ -2,7 +2,7 @@
 
 ### Project Overview
  
-This data cleaning project with the Nashville Hosuing data, we will hand the data formatting, transforming address column and removing the data we are not using.
+This data cleaning project with the Nashville Hosuing data, we handle the data formatting, transforming address column and removing the data we are not using.
 
 ### Data Sources
 
