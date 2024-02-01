@@ -1,6 +1,6 @@
 # Nashville-Housing-Data
 
-## Table of Content
+## Table of Contents
  - [Project Overview](#project-overview)
  - [Data Sources](#data-sources)
  - [Tools](#tools)
