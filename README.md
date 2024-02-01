@@ -22,6 +22,8 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
 
 ### Data Cleaning
 
+[Data Cleaning-Nashville Housing -SQL code Click](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/blob/main/NashvilleHousingSQL.sql)
+
 - Standardize Data Format
 
 	![image](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/assets/88122148/20be1bdf-93a1-4eeb-93db-bc8629e0e393)
@@ -36,8 +38,7 @@ Nashville Housing Data(https://www.kaggle.com/datasets/tmthyjames/nashville-hous
   Update portfolioproject.dbo.NashvilleHousing
   Set SaleDateConverted = Convert(date, SaleDate)
   ```
-	[Data Cleaning-Nashville Housing -SQL code Click](https://github.com/MingyuTheAnalyst/Nashville-Housing-Data/blob/main/NashvilleHousingSQL.sql)
-  
+
 - Populate Property Address data
 
   ```sql
